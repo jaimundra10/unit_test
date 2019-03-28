@@ -39,10 +39,10 @@ void test_case2(void)
     printf("\n subtraction of zero and positive number");
 
     assert(calculator(0,2,-10)==10);
-    printf("\ subtraction of zero and negative number");
+    printf("\n subtraction of zero and negative number");
 
     assert(calculator(0,2,0)==0);
-    printf("\ subtraction of zeros");
+    printf("\n subtraction of zeros");
  }
 void test_case3(void)
 {
