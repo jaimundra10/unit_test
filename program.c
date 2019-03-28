@@ -83,6 +83,9 @@ void test_case4(void)
     assert(calculator(0,4,-10)==0);
     printf("\n division of zero and negative number");
 
+    printf("\n any number divided by zero produce invalid result");
+    assert(calculator(10,4,0));
+
 }
 void main()
 {
